@@ -1,0 +1,584 @@
+@include maxWidth(1585px){
+    .container{
+        max-width:1300px ;
+    }
+    .header{
+        height:1000px !important;  
+        .header__img{
+            height: 1000px;
+        }
+        .header__text-footer {
+            margin-top: 270px;
+        }
+        .person{
+                width: 570px ;
+                height: 600px ;
+                top : 95% ;
+        }
+    }
+    .quality-wrap img.quality-img {
+        max-width: 1400px ;
+        width: 100%;
+    }
+    .quality-wrap .image .beer {
+        bottom: 572px ;
+        height: 940px ;
+    }
+    .quality-wrap {
+        height: 495px;
+        .quality-img{
+            height:100%;
+        }
+    }
+    .quality-wrap .image .beer-yellow {
+        position: absolute;
+        width: 750px ;
+        height: 755px ;
+        top: 615px ;
+        right: 0;
+    }
+    .header__text{
+        &-top{
+            h3{font-size: 5rem ;}
+        }
+        &-center{
+            font-size: 2.6rem;
+        }
+        &-bottom{
+            font-size: 2rem;
+        }
+    }
+    .brewing-wrap .brewing ,.quality__text{
+        max-width: 660px !important;
+    }
+
+    .brewing-wrap .brewing__title ,.quality-wrap .quality__text h3 {
+        font-size: 5rem;
+        color: #fff;
+    }
+    .brewing-wrap .brewing__des,.quality-wrap .quality__text p{
+        font-size: 2rem ;
+        color: #cdb378;
+        margin-top: 30px;
+        line-height:1.4 !important;
+    }
+    .quality__text.hancra,.quality__text.journey{
+        margin-top: 0 ;
+    }
+    .quality-wrap.journey {
+        top: 2382px ;
+        text-align: center;
+    }
+    .quality-wrap .image__text {
+        font-size: 5.5rem ;
+    }
+}
+
+@include maxWidth(1460px){
+    .container{
+        max-width:1150px ;
+    }
+    .header{
+        height:800px !important;  
+        .header__img{
+            height: 800px;
+        }
+        .header__text-footer {
+            margin-top: 160px;
+        }
+        .person{
+                width: 570px ;
+                height: 600px ;
+                top : 95% ;
+        }
+        .header__text {
+            margin-top: 400px;
+        }
+    }
+    .quality-wrap img.quality-img {
+        max-width: 1300px ;
+        width: 100%;
+    }
+    .quality-wrap .image .beer {
+        bottom: 572px ;
+        height: 940px ;
+    }
+    .quality-wrap {
+        height: 495px;
+        .quality-img{
+            height:100%;
+        }
+    }
+    .quality-wrap .image .beer-yellow {
+        position: absolute;
+        width: 750px ;
+        height: 755px ;
+        top: 615px ;
+        right: 0;
+    }
+    .header__text{
+        &-top{
+            h3{font-size: 5rem ;}
+        }
+        &-center{
+            font-size: 2.6rem;
+        }
+        &-bottom{
+            font-size: 2rem;
+        }
+    }
+    .brewing-wrap .brewing ,.quality__text{
+        max-width: 522px!important ;
+    }
+
+    .brewing-wrap .brewing__title ,.quality-wrap .quality__text h3 {
+        font-size: 5rem;
+        color: #fff;
+    }
+    .brewing-wrap .brewing__des,.quality-wrap .quality__text p{
+        font-size: 2rem ;
+        color: #cdb378;
+        margin-top: 30px;
+        line-height:1.4;
+    }
+    .quality__text.hancra,.quality__text.journey{
+        margin-top: 0 ;
+    }
+    .quality-wrap.journey {
+        top: 2382px ;
+        text-align: center;
+    }
+    .quality-wrap .image__text {
+        font-size: 5.5rem ;
+    }
+}
+
+// 3
+@include maxWidth(1305px){
+    .container{
+        max-width:920px !important;
+    }
+    .header{
+        height:800px !important;  
+        .header__img{
+            height: 800px;
+        }
+        .header__text-footer {
+            margin-top: 160px;
+        }
+        .person{
+                width: 450px;
+                height: 450px;
+                top: 95%;
+        }
+        .header__text {
+            margin-top: 400px;
+        }
+    }
+    .quality-wrap img.quality-img {
+        max-width: 1150px;
+    }
+    .quality-wrap .image .beer {
+        bottom: 520px;
+        height: 850px;
+        width: 210px;
+        right: 345px;
+    }
+    .quality-wrap .image__text {
+        position: absolute;
+        top: 195px;
+        right: 68px;
+        font-size: 5rem;
+        color: #000;
+        max-width: 500px;
+        text-transform: uppercase;
+        line-height: 6.5rem;
+    }
+    .quality-wrap {
+        height: 495px;
+        top: 330px;
+        .quality-img{
+            height:100%;
+        }
+    }
+    .quality-wrap .image .beer-yellow {
+        position: absolute;
+        width: 565px ;
+        height: 565px ;
+        top: 515px ;
+        right: 0;
+    }
+    .quality-wrap.hancra {
+        top: 1150px;
+    }
+    .header__text{
+        &-top{
+            h3{font-size: 5rem ;}
+        }
+        &-center{
+            font-size: 2.6rem;
+        }
+        &-bottom{
+            font-size: 2rem;
+        }
+    }
+    .brewing-wrap .brewing ,.quality__text{
+        max-width: 522px!important ;
+    }
+
+    .brewing-wrap .brewing__title ,.quality-wrap .quality__text h3 {
+        font-size: 4rem;
+        color: #fff;
+    }
+    .brewing-wrap .brewing__des,.quality-wrap .quality__text p{
+        font-size: 1.9rem ;
+        color: #cdb378;
+        margin-top: 30px;
+        line-height:1.4;
+    }
+    .quality__text.hancra,.quality__text.journey{
+        margin-top: 0 ;
+
+    }
+    .quality-wrap.journey {
+        top: 2030px ;
+        text-align: center;
+
+    }
+    .quality-wrap .image__text {
+        font-size: 5.5rem ;
+    }
+    .quality__text.journey{
+        max-width:550px !important; 
+    }
+}
+
+
+// 4
+
+@include maxWidth(1150px){
+    .container{
+        max-width:920px !important;
+    }
+    .header{
+        height:800px !important;  
+        .header__img{
+            height: 800px;
+        }
+        .header__text-footer {
+            margin-top: 160px;
+        }
+        .person{
+                width: 450px;
+                height: 450px;
+                top: 95%;
+        }
+        .header__text {
+            margin-top: 400px;
+        }
+        .header__text-top h3 {
+            font-size: 4rem;
+        }
+        .header__text-center {
+            font-size: 2rem;
+        }
+    }
+    .quality-wrap img.quality-img {
+        max-width: 1000px;
+    }
+    .quality-wrap .image .beer {
+        bottom: 445px;
+        height: 850px;
+        width: 210px;
+        right: 345px;
+    }
+    .quality-wrap {
+        height: 495px;
+        top: 330px;
+        .quality-img{
+            height:100%;
+        }
+    }
+    .quality-wrap .image .beer-yellow {
+        position: absolute;
+        width: 520px;
+        height: 520px;
+        top: 470px;
+        right: 0;
+    }
+    .quality-wrap.hancra {
+        top: 1055px;
+    }
+    .header__text{
+        &-top{
+            h3{font-size: 5rem ;}
+        }
+        &-center{
+            font-size: 2.6rem;
+        }
+        &-bottom{
+            font-size: 2rem;
+        }
+    }
+    .brewing-wrap .brewing ,.quality__text{
+        max-width: 440px!important ;
+    }
+
+    .brewing-wrap .brewing__title ,.quality-wrap .quality__text h3 {
+        font-size: 4rem ;
+        color: #fff;
+    }
+    .brewing-wrap .brewing__des,.quality-wrap .quality__text p{
+        font-size: 1.8rem ;
+        color: #cdb378;
+        margin-top: 30px;
+        line-height:1.4;
+    }
+    .quality__text.hancra,.quality__text.journey{
+        margin-top: 0 ;
+
+    }
+    .quality-wrap.journey {
+        top: 2030px ;
+        text-align: center;
+    }
+    .quality-wrap .image__text {
+        font-size: 5.5rem ;
+    }
+    .quality-wrap .image__text {
+        font-size: 4.5rem;
+        max-width:450px;
+    }
+}
+
+// 
+@include maxWidth(999px){
+    .container{
+        max-width:850px !important;
+    }
+    .header{
+        height:600px !important;  
+        .header__img{
+            height: 600px;
+        }
+        .header__text-footer {
+            margin-top: 80px;
+        }
+        .person{
+                width: 400px;
+                height: 400px;
+                top: 95%;
+        }
+        .header__text {
+            margin-top: 300px   ;
+        }
+        .header__text-top h3 {
+            font-size: 3rem;
+        }
+        .header__text-center {
+            font-size: 1.8rem;
+        }
+    }
+    .quality-wrap img.quality-img {
+        max-width: 820px;
+    }
+    .quality-wrap .image .beer {
+        bottom: 366px;
+        height: 850px;
+        width: 210px;
+        right: 295px;
+    }
+    .quality-wrap {
+        height: 495px;
+        top: 310px;
+        .quality-img{
+            height:100%;
+        }
+    }
+    .quality-wrap .image .beer-yellow {
+        position: absolute;
+        width: 480px;
+        height: 500px;
+        top: 385px;
+        right: 0;
+    }
+    .quality-wrap.hancra {
+        top: 1010px;
+    }
+    .header__text{
+        &-top{
+            h3{font-size: 5rem ;}
+        }
+        &-center{
+            font-size: 2.6rem;
+        }
+        &-bottom{
+            font-size: 2rem;
+        }
+    }
+    .brewing-wrap .brewing ,.quality__text{
+        max-width: 522px!important ;
+    }
+
+    .brewing-wrap .brewing__title ,.quality-wrap .quality__text h3 {
+        font-size: 3rem;
+        color: #fff;
+    }
+    .brewing-wrap .brewing__des,.quality-wrap .quality__text p{
+        font-size: 1.8rem ;
+        color: #cdb378;
+        margin-top: 30px;
+        line-height:1.4;
+    }
+    .quality__text.hancra,.quality__text.journey{
+        margin-top: 0 ;
+
+    }
+    .quality-wrap.journey {
+        top: 1850px ;
+        text-align: center;
+    }
+    .quality-wrap .image__text {
+        font-size: 5.5rem ;
+    }
+    .quality-wrap.journey {
+        top: 1800px;
+        text-align: center;
+    }
+    .brewing-wrap .brewing, .quality__text {
+        max-width: 370px !important;
+    }
+    .quality-wrap .image__text {
+        font-size: 3.5rem;
+        max-width: 320px;
+        top :130px;
+    }
+}
+@include maxWidth(820px){
+    .container{
+        max-width:700px !important;
+    }
+    .header{
+        height:500px !important;  
+        .header__img{
+            height: 500px;
+        }
+        .logo {
+            margin-top: 25px;
+        }
+        .header__text-footer {
+            margin-top: 80px;
+        }
+        .person{
+                width: 400px;
+                height: 400px;
+                top: 95%;
+        }
+        .header__text {
+            margin-top: 208px   ;
+        }
+        .header__text-top h3 {
+            font-size: 3rem;
+        }
+        .header__text-center {
+            font-size: 1.8rem;
+        }
+    }
+    .quality-wrap img.quality-img {
+        max-width: 700px;
+    }
+    .quality-wrap .image .beer {
+        bottom: 225px;
+        object-fit: contain;
+        height: 780px;
+        width: 150px;
+        right: 290px;
+    }
+    
+    .quality-wrap {
+        height: 400px;
+        top: 310px;
+        .quality-img{
+            height:100%;
+        }
+    }
+    .quality-wrap .image .beer-yellow {
+        position: absolute;
+        width: 480px;
+        height: 500px;
+        top: 385px;
+        right: 0;
+    }
+    .quality-wrap.hancra {
+        top: 1010px;
+    }
+    .header__text{
+        &-top{
+            h3{font-size: 5rem ;}
+        }
+        &-center{
+            font-size: 2.6rem;
+        }
+        &-bottom{
+            font-size: 2rem;
+        }
+    }
+    .brewing-wrap .brewing ,.quality__text{
+        max-width: 522px!important ;
+    }
+
+    .brewing-wrap .brewing__title ,.quality-wrap .quality__text h3 {
+        font-size: 3rem;
+        color: #fff;
+    }
+    .brewing-wrap .brewing__des,.quality-wrap .quality__text p{
+        font-size: 1.8rem ;
+        color: #cdb378;
+        margin-top: 30px;
+        line-height:1.4;
+    }
+    .quality__text.hancra,.quality__text.journey{
+        margin-top: 0 ;
+
+    }
+    .quality-wrap.journey {
+        top: 1850px ;
+        text-align: center;
+    }
+    .quality-wrap .image__text {
+        font-size: 5.5rem ;
+    }
+    .quality-wrap.journey {
+        top: 1800px;
+        text-align: center;
+    }
+    .brewing-wrap .brewing, .quality__text {
+        max-width: 260px !important;
+    }
+    .quality-wrap .image__text {
+        font-size: 3.5rem;
+        max-width: 320px;
+        top :130px;
+    }
+    .brewing-wrap .brewing {
+        margin-top: 40px;
+    }
+    .quality-wrap .quality__text {
+        position: absolute;
+        top: 0;
+        margin-top: 40px;
+        max-width: 1000px;
+    }
+    .quality-wrap .quality__text.hancra {
+        position: absolute;
+        top: 0;
+        margin-top: -178px;
+        max-width: 1000px;
+    }
+
+    .quality-wrap .quality__text.journey {
+        position: absolute;
+        top: -132px;
+    }
+    
+}

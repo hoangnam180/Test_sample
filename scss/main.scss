@@ -109,6 +109,7 @@ html{
             bottom:700px;
             right: 465px;
             z-index: 3;
+            object-fit: contain;
             &-yellow{
                 position: absolute;
                 width: 900px;
@@ -119,3 +120,4 @@ html{
         }
     }
 }
+@import '_responsive';

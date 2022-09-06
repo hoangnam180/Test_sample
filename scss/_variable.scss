@@ -16,3 +16,15 @@ $height-header : 1065px;
     background-size: cover;
     width : 100%;
 } 
+
+@mixin maxWidth($value) {
+   @media screen and (max-width:$value){
+     @content;
+   }
+} 
+
+@mixin minWidth($value) {
+   @media screen and (min-width:$value){
+     @content;
+   }
+} 
