@@ -4,11 +4,17 @@
     position: relative;
     top: 0;
     height: $height-header;
-    overflow : hidden;
    @include flexbox(left,center);
     
    @include bg-image();
- 
+    .person{
+        position: absolute;
+        width : 590px;
+        height :650px;
+        right:0;
+        top : 90%;
+        z-index: 1;
+    }
    .header-inner{
     height: $height-header;
     @include bg-image();

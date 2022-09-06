@@ -39,12 +39,13 @@ html{
 }
 
 .quality-wrap{
-    margin-top: 130px;
+    // margin-top: 130px;
     height : 500px;
     position: absolute;
     top : 400px;
     width : 100%;
-    img{
+    z-index: 2;
+    img.quality-img{
         max-width: 1730px;
         width : 100%;
     }
@@ -86,7 +87,35 @@ html{
         .container{
             @include flexbox(center,center);
         }
-        top : 2300px;
+        top : 2500px;
         text-align:center;
+    }
+    .image{
+        position: relative;
+        &__text{
+            position: absolute;
+            top: 325px;
+            right: 250px;
+            font-size: 6rem;
+            color : #000;
+            max-width:530px;
+            text-transform: uppercase;
+            line-height: 6.5rem;
+        }
+        .beer{
+            height: 900px;
+            width: 260px;
+            position: absolute;
+            bottom:700px;
+            right: 465px;
+            z-index: 3;
+            &-yellow{
+                position: absolute;
+                width: 900px;
+                height: 900px;
+                top : 700px;
+                right:0;
+            }
+        }
     }
 }

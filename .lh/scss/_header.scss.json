@@ -1,0 +1,46 @@
+{
+    "sourceFile": "scss/_header.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1662441075554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662441157066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     overflow : hidden;\n    @include flexbox(left,center);\n     \n    @include bg-image();\n-    &.person{\n+    .person{\n         position: absolute;\n     }\n    .header-inner{\n     height: $height-header;\n"
+                },
+                {
+                    "date": 1662441191415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,10 @@\n     \n    @include bg-image();\n     .person{\n         position: absolute;\n+        width : 590px;\n+        height :650px;\n     }\n    .header-inner{\n     height: $height-header;\n     @include bg-image();\n"
+                },
+                {
+                    "date": 1662441217549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     .person{\n         position: absolute;\n         width : 590px;\n         height :650px;\n+        right:0;\n     }\n    .header-inner{\n     height: $height-header;\n     @include bg-image();\n"
+                },
+                {
+                    "date": 1662441238442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n         position: absolute;\n         width : 590px;\n         height :650px;\n         right:0;\n+        top : 90%;\n     }\n    .header-inner{\n     height: $height-header;\n     @include bg-image();\n"
+                },
+                {
+                    "date": 1662441256262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n     width: 100%;\n     position: relative;\n     top: 0;\n     height: $height-header;\n-    overflow : hidden;\n    @include flexbox(left,center);\n     \n    @include bg-image();\n     .person{\n"
+                },
+                {
+                    "date": 1662441289104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n         width : 590px;\n         height :650px;\n         right:0;\n         top : 90%;\n+        z-index: 100;\n     }\n    .header-inner{\n     height: $height-header;\n     @include bg-image();\n"
+                },
+                {
+                    "date": 1662441298952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         width : 590px;\n         height :650px;\n         right:0;\n         top : 90%;\n-        z-index: 100;\n+        z-index: 1;\n     }\n    .header-inner{\n     height: $height-header;\n     @include bg-image();\n"
+                }
+            ],
+            "date": 1662441075554,
+            "name": "Commit-0",
+            "content": ".header{\n    background-image: url(\"../imgs/bg-header\");\n    width: 100%;\n    position: relative;\n    top: 0;\n    height: $height-header;\n    overflow : hidden;\n   @include flexbox(left,center);\n    \n   @include bg-image();\n    &.person{\n        position: absolute;\n    }\n   .header-inner{\n    height: $height-header;\n    @include bg-image();\n    }\n    &__img{\n        height: $height-header; \n    }\n        \n    .logo{\n        position:absolute;\n        margin-top: 117px;\n        background-image: url(\"../imgs/logo-text\");\n    }\n\n    &__text{\n        position:absolute;\n        margin-top: 430px;\n        font-size: 1.6rem;\n        @include flexbox(center,center);\n        flex-direction:column;\n        \n        &-center{\n            margin-top: 30px;\n            color: $text-white;\n            font-size: 3.6rem;\n            text-transform: uppercase;\n        }\n        \n        &-bottom{\n            margin-top: 40px;\n            color: $text-color;\n            font-size: 2.4rem;\n        }\n        \n        &-top{\n            @include flexbox(center,center,nowrap);\n            gap:7px;\n            color: $text-white;\n            h3{\n                font-size: 6rem;\n            }\n        }\n        &-footer{\n            @include flexbox(center,center,nowrap);\n            flex-direction: column;\n            margin-top: 336px;\n            color: $text-color;\n            font-size: 1.6rem;\n            gap : 1.5rem;\n            img{\n                width: 2rem;\n                height: 1rem;\n            }\n        }\n\n    }\n    \n}\n"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "sourceFile": "scss/main.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1662439326547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662439388855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,8 +108,10 @@\n             bottom:700px;\n             right: 465px;\n             &-yellow{\n                 position: absolute;\n+                width: 985px;\n+                height: 1010px\n             }\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662439442046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,11 @@\n             right: 465px;\n             &-yellow{\n                 position: absolute;\n                 width: 985px;\n-                height: 1010px\n+                height: 1010px;\n+                top : 700px;\n+                right:0;\n             }\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662439471923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n             right: 465px;\n             &-yellow{\n                 position: absolute;\n                 width: 985px;\n-                height: 1010px;\n+                height: 985px;\n                 top : 700px;\n                 right:0;\n             }\n         }\n"
+                },
+                {
+                    "date": 1662439500929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,10 +108,10 @@\n             bottom:700px;\n             right: 465px;\n             &-yellow{\n                 position: absolute;\n-                width: 985px;\n-                height: 985px;\n+                width: 900px;\n+                height: 900px;\n                 top : 700px;\n                 right:0;\n             }\n         }\n"
+                },
+                {
+                    "date": 1662441330070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,8 +106,9 @@\n             width: 260px;\n             position: absolute;\n             bottom:700px;\n             right: 465px;\n+            z-index: 2;\n             &-yellow{\n                 position: absolute;\n                 width: 900px;\n                 height: 900px;\n"
+                },
+                {
+                    "date": 1662441417918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n     height : 500px;\n     position: absolute;\n     top : 400px;\n     width : 100%;\n+    z-index: 2;\n     img.quality-img{\n         max-width: 1730px;\n         width : 100%;\n     }\n@@ -106,9 +107,9 @@\n             width: 260px;\n             position: absolute;\n             bottom:700px;\n             right: 465px;\n-            z-index: 2;\n+            z-index: 3;\n             &-yellow{\n                 position: absolute;\n                 width: 900px;\n                 height: 900px;\n"
+                }
+            ],
+            "date": 1662439326547,
+            "name": "Commit-0",
+            "content": "@import '_variable';\n@import '_header';\n\n\nhtml{\n    font-size: 62.5%;\n}\n\n.container{\n    margin : 0 auto;\n    max-width: 1570px;\n    width : 100%;\n}\n.container-fluid{\n    width : 100%;\n}\n\n.content__inner{\n    position: relative;\n}\n\n.brewing-wrap{\n    position:absolute;\n    top : 0;\n    height : 355px;\n    .brewing{\n        margin-top : 110px;\n        &__title{\n            font-size: 7rem;\n            color : $text-white;\n        }\n        &__des{\n            font-size: 2.4rem;\n            color : $text-color;\n            margin-top: 30px;\n        }\n    }\n    \n}\n\n.quality-wrap{\n    // margin-top: 130px;\n    height : 500px;\n    position: absolute;\n    top : 400px;\n    width : 100%;\n    img.quality-img{\n        max-width: 1730px;\n        width : 100%;\n    }\n    .quality__text{\n        position :absolute;\n        top : 0;\n        margin-top: 100px;\n        max-width:1000px;\n        h3{\n            color : $text-color;\n            font-size: 7.2rem;\n            text-transform:  uppercase;\n        }\n        p{\n            margin-top: 50px;\n            font-size: 2.4rem;\n            color:$text-color;\n            line-height: 3.6rem;\n        }\n        button{\n            margin-top: 60px;\n            width: 225px;\n            height : 55px;\n            border : 1px solid $text-color;\n            color : $text-white;\n            background-color : #272a18;\n        }\n    }\n    &.hancra{\n        top : 1400px;\n        h3{\n            max-width : 500px;\n        }\n        p{\n            max-width:  660px;\n        }\n    }\n    &.journey{\n        .container{\n            @include flexbox(center,center);\n        }\n        top : 2500px;\n        text-align:center;\n    }\n    .image{\n        position: relative;\n        &__text{\n            position: absolute;\n            top: 325px;\n            right: 250px;\n            font-size: 6rem;\n            color : #000;\n            max-width:530px;\n            text-transform: uppercase;\n            line-height: 6.5rem;\n        }\n        .beer{\n            height: 900px;\n            width: 260px;\n            position: absolute;\n            bottom:700px;\n            right: 465px;\n            &-yellow{\n                position: absolute;\n            }\n        }\n    }\n}"
+        }
+    ]
+}

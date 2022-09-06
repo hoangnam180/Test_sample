@@ -4,7 +4,6 @@
   position: relative;
   top: 0;
   height: 1065px;
-  overflow: hidden;
   display: flex;
   align-items: left;
   justify-content: center;
@@ -13,6 +12,14 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   width: 100%;
+}
+.header .person {
+  position: absolute;
+  width: 590px;
+  height: 650px;
+  right: 0;
+  top: 90%;
+  z-index: 1;
 }
 .header .header-inner {
   height: 1065px;
@@ -114,13 +121,13 @@ html {
 }
 
 .quality-wrap {
-  margin-top: 130px;
   height: 500px;
   position: absolute;
   top: 400px;
   width: 100%;
+  z-index: 2;
 }
-.quality-wrap img {
+.quality-wrap img.quality-img {
   max-width: 1730px;
   width: 100%;
 }
@@ -159,7 +166,7 @@ html {
   max-width: 660px;
 }
 .quality-wrap.journey {
-  top: 2300px;
+  top: 2500px;
   text-align: center;
 }
 .quality-wrap.journey .container {
@@ -167,4 +174,32 @@ html {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+.quality-wrap .image {
+  position: relative;
+}
+.quality-wrap .image__text {
+  position: absolute;
+  top: 325px;
+  right: 250px;
+  font-size: 6rem;
+  color: #000;
+  max-width: 530px;
+  text-transform: uppercase;
+  line-height: 6.5rem;
+}
+.quality-wrap .image .beer {
+  height: 900px;
+  width: 260px;
+  position: absolute;
+  bottom: 700px;
+  right: 465px;
+  z-index: 3;
+}
+.quality-wrap .image .beer-yellow {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  top: 700px;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */
